@@ -38,6 +38,29 @@ public class Main {
         int listToStudent = paperLists / totalstudents;
         System.out.println("На каждого ученика рассчитано " + listToStudent + " листов бумаги");
 
+        // Задача 4
+        System.out.println("Задача 4");
+        byte bootlesMinute = 8;  // Кол-во бутылок за 1 минуту
+
+        int minute20 = bootlesMinute * 20;
+        System.out.println("За 20 минут машина произвела бутылок " + minute20 + " штук");
+
+        int day = 24 * 60; // минут в сутках
+        int dayCapacity = day * bootlesMinute;
+        System.out.println("За сутки машина произвела бутылок " + dayCapacity + " штук");
+
+        int threeDay = day * 3;
+        int threeDayCapacity = threeDay * bootlesMinute;
+        System.out.println("За 3 дня машина произвела бутылок " + threeDayCapacity + " штук");
+
+        long mounth = day * 31;
+        long mounthCapacity = mounth * bootlesMinute;
+        System.out.println("За месяц машина произвела бутылок " + mounthCapacity + " штук");
+
+        // Задача 5
+        System.out.println("Задача 5");
+
+
 
 
 
