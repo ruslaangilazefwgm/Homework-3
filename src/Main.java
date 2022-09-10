@@ -17,6 +17,22 @@ public class Main {
 
         // Задача 2
         System.out.println("Задача 2");
+        float potatoesWeigth = 27.12f;
+        long sugar = 987678965549L;
+        byte cat = 4;
+        short dog = 786;
+        boolean catAdult = cat < 2;
+        int peoples = 569;
+        short cash = -159;
+        int town = 27897;
+        byte cents = 67;
+        System.out.println(catAdult);
+
+        // Задача 3
+        System.out.println("Задача 3");
+
+
+
 
     }
 }
