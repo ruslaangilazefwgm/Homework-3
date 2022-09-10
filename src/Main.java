@@ -59,6 +59,25 @@ public class Main {
 
         // Задача 5
         System.out.println("Задача 5");
+        byte totalBanks = 120;
+        byte whiteColour = 2;
+        byte brownColour = 4;
+        int totalColour = whiteColour + brownColour;
+
+        int totalClass = totalBanks / totalColour; // всего классов
+        int whiteTotal = whiteColour * totalClass; // белой краски всего
+        int brownTotal = brownColour * totalClass; // коричневой краски всего
+        System.out.println("В школе, где " + totalClass + " классов, нужно " + whiteTotal + " банок белой краски и " + brownTotal + " банок коричневой краски");
+
+        // Задача 6
+        System.out.println("Задача 6");
+
+
+
+
+
+
+
 
 
 
