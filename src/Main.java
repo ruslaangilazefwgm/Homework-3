@@ -30,6 +30,15 @@ public class Main {
 
         // Задача 3
         System.out.println("Задача 3");
+        byte ludmila = 23;
+        byte ann = 27;
+        byte kate = 30;
+        int totalstudents = ludmila + ann + kate;
+        short paperLists = 480;
+        int listToStudent = paperLists / totalstudents;
+        System.out.println("На каждого ученика рассчитано " + listToStudent + " листов бумаги");
+
+
 
 
 
