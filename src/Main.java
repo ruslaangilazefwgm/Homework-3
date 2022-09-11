@@ -102,5 +102,38 @@ public class Main {
         int average = (oneSet + twoSet) / 2;
         System.out.println(average + " дней уйдет на похудение в среднем");
 
+        // Задача 8
+        System.out.println("Задача 8");
+
+        int masha = 67760;
+        int denis = 83690;
+        int kris = 76230;
+
+        int yearMasha = masha * 12; // Прежний годовой доход
+        int yearDenis = denis * 12;
+        int yearKris = kris * 12;
+
+        int mashaUp = masha + (masha / 10); // Повышенная з/п
+        int denisUp = denis + (denis / 10);
+        int krisUp = kris + (kris / 10);
+
+        int yearMashaUp = mashaUp * 12; // Новый годовой доход
+        int yearDenisUp = denisUp * 12;
+        int yearKrisUp = krisUp * 12;
+
+        int mashaDif = yearMashaUp - yearMasha; // Разница годового
+        int denisDif = yearDenisUp - yearDenis;
+        int krisDif = yearKrisUp - yearKris;
+
+        System.out.println("Маша теперь получает " + mashaUp + " рублей. Годовой доход вырос на " + mashaDif + " рублей");
+        System.out.println("Денис теперь получает " + denisUp + " рублей. Годовой доход вырос на " + denisDif + " рублей");
+        System.out.println("Кристина теперь получает " + krisUp + " рублей. Годовой доход вырос на " + krisDif + " рублей");
+
+
+
+
+
+
+
     }
 }
