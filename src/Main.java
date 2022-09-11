@@ -72,12 +72,21 @@ public class Main {
         // Задача 6
         System.out.println("Задача 6");
 
+        byte bananas = 5;     //Кол-во ингридиентов
+        short milk = 200;
+        byte iceCream = 2;
+        byte eggs = 4;
 
+        int bananasWeight = bananas * 80;  // переводим в граммы
+        float milkWeight = milk * 1.05f;
+        int iceCreamWeight = iceCream * 100;
+        int eggsWeight = eggs * 70;
 
+        float cocktail = (bananasWeight + milkWeight + iceCreamWeight + eggsWeight) / 1000f;
+        System.out.println("Вес завтрака " + cocktail + " кг");
 
-
-
-
+        // Задача 7
+        System.out.println("Задача 7");
 
 
 
