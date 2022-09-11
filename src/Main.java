@@ -88,11 +88,19 @@ public class Main {
         // Задача 7
         System.out.println("Задача 7");
 
+        // 250 гр. = 0.25 кг
+        // 500 гр. = 0.5 кг
 
+        int totalMass = 7000;
+        short oneWight = 250;
+        short twoWeight = 500;
 
-
-
-
+        int oneSet = totalMass / oneWight;
+        System.out.println( oneSet + " дней уйдет на похудение, если спортсмен будет терять 250 грамм в день");
+        int twoSet = totalMass / twoWeight;
+        System.out.println(twoSet + " дней уйдет на похудение, если спортсмен будет терять 500 грамм в день");
+        int average = (oneSet + twoSet) / 2;
+        System.out.println(average + " дней уйдет на похудение в среднем");
 
     }
 }
